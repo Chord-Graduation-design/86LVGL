@@ -1,0 +1,1 @@
+/usr/bin/riscv64-linux-gnu-gcc -Os -DNDEBUG  -rdynamic CMakeFiles/Sha1Test.dir/SHA1.c.o  -o Sha1Test 

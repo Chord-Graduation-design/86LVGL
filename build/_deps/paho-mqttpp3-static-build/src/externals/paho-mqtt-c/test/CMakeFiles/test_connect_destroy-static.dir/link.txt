@@ -1,0 +1,1 @@
+/usr/bin/riscv64-linux-gnu-gcc -Os -DNDEBUG  -rdynamic CMakeFiles/test_connect_destroy-static.dir/test_connect_destroy.c.o  -o test_connect_destroy-static  ../src/libpaho-mqtt3c.a -lc -ldl -lpthread -lrt 

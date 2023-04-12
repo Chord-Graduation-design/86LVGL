@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "sunxifb.h": "c",
+        "lv_drv_conf.h": "c",
+        "evdev.h": "c",
+        "lv_demos.h": "c",
+        "lv_demo_keypad_encoder.h": "c",
+        "chrono": "cpp"
+    }
+}

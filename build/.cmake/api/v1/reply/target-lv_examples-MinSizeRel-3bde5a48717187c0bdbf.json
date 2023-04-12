@@ -1,0 +1,553 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lv_examples"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os -DNDEBUG  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-std=gnu++2a"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "LV_CONF_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LV_LVGL_H_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LV_USE_DEMO_BENCHMARK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LV_USE_DEMO_KEYPAD_AND_ENCODER"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LV_USE_DEMO_MUSIC"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LV_USE_DEMO_STRESS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "LV_USE_DEMO_WIDGETS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/root/lv_examples/d1s-nezha/staging_dir/target/usr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/root/lv_examples/src/."
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/root/lv_examples/src/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-src/src/externals/paho-mqtt-c/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lvgl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lvgl/examples"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lvgl/demos"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lv_drivers"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os -DNDEBUG  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "LV_CONF_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LV_LVGL_H_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LV_USE_DEMO_BENCHMARK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LV_USE_DEMO_KEYPAD_AND_ENCODER"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LV_USE_DEMO_MUSIC"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LV_USE_DEMO_STRESS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "LV_USE_DEMO_WIDGETS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/root/lv_examples/d1s-nezha/staging_dir/target/usr/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/root/lv_examples/src/."
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/root/lv_examples/src/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-src/src/externals/paho-mqtt-c/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lvgl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lvgl/examples"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lvgl/demos"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/root/lv_examples/src/lv_drivers"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "paho-mqttpp3-static::@62dc3ed2dfee72f4e974"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "paho-mqtt3a-static::@f9c48be798071f0e7822"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lvgl_demos::@b16ffba5fedc7c547903"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lvgl_examples::@b16ffba5fedc7c547903"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lvgl::@b16ffba5fedc7c547903"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lv_drivers::@90bd00748c6f40d1d4ba"
+		}
+	],
+	"id" : "lv_examples::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Os -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/root/lv_examples/d1s-nezha/staging_dir/target/usr/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/root/lv_examples/d1s-nezha/staging_dir/target/usr/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/liblvgl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lvgl/liblvgl_examples.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lvgl/liblvgl_demos.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/liblv_drivers.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-luapi",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/paho-mqttpp3-static-build/src/libpaho-mqttpp3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/liblvgl.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstdc++",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "_deps/paho-mqttpp3-static-build/src/externals/paho-mqtt-c/src/libpaho-mqtt3a.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "lv_examples",
+	"nameOnDisk" : "lv_examples",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "control/Iot.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "control/control.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/iot_icon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/protos/msg.pb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/protos/pb_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/protos/pb_decode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/protos/pb_encode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/smileysans_16.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/smileysans_24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/studio/ui.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/studio/ui_img_humidity_png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/studio/ui_img_light_png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/studio/ui_img_sunny_png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/studio/ui_img_temperature_png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "control/studio/ui_img_user_png.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,337 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/paho-mqttpp3-static-build",
+					"childIndexes" : 
+					[
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/paho-mqttpp3-static-src"
+				},
+				{
+					"build" : "_deps/paho-mqttpp3-static-build/src",
+					"childIndexes" : 
+					[
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/paho-mqttpp3-static-src/src",
+					"targetIndexes" : 
+					[
+						8,
+						11
+					]
+				},
+				{
+					"build" : "_deps/paho-mqttpp3-static-build/src/externals/paho-mqtt-c",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build/_deps/paho-mqttpp3-static-src/src/externals/paho-mqtt-c"
+				},
+				{
+					"build" : "_deps/paho-mqttpp3-static-build/src/externals/paho-mqtt-c/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/paho-mqttpp3-static-src/src/externals/paho-mqtt-c/src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "_deps/paho-mqttpp3-static-build/src/mqtt",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/paho-mqttpp3-static-src/src/mqtt"
+				},
+				{
+					"build" : "_deps/paho-mqttpp3-static-build/cmake",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/paho-mqttpp3-static-src/cmake"
+				},
+				{
+					"build" : "lvgl",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lvgl",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "lv_drivers",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "lv_drivers",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lv_examples",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						5,
+						6
+					],
+					"name" : "paho-mqtt-cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "Eclipse Paho C",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "lvgl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "lv_drivers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Base64Test::@f9c48be798071f0e7822",
+					"jsonFile" : "target-Base64Test-MinSizeRel-6df9a6dfbe299d3edc2c.json",
+					"name" : "Base64Test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Sha1Test::@f9c48be798071f0e7822",
+					"jsonFile" : "target-Sha1Test-MinSizeRel-b286e46f9ecdd5a007e4.json",
+					"name" : "Sha1Test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "common_obj_static::@f9c48be798071f0e7822",
+					"jsonFile" : "target-common_obj_static-MinSizeRel-e606253c61f2db45a4b2.json",
+					"name" : "common_obj_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "lv_drivers::@90bd00748c6f40d1d4ba",
+					"jsonFile" : "target-lv_drivers-MinSizeRel-07cec80bd0db1c60597c.json",
+					"name" : "lv_drivers",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lv_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lv_examples-MinSizeRel-3bde5a48717187c0bdbf.json",
+					"name" : "lv_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lvgl::@b16ffba5fedc7c547903",
+					"jsonFile" : "target-lvgl-MinSizeRel-e9a23a024028f1ec358c.json",
+					"name" : "lvgl",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lvgl_demos::@b16ffba5fedc7c547903",
+					"jsonFile" : "target-lvgl_demos-MinSizeRel-cc03c6c2d4a325c43243.json",
+					"name" : "lvgl_demos",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lvgl_examples::@b16ffba5fedc7c547903",
+					"jsonFile" : "target-lvgl_examples-MinSizeRel-556cd2766691f439f0d7.json",
+					"name" : "lvgl_examples",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "paho-cpp-objs::@62dc3ed2dfee72f4e974",
+					"jsonFile" : "target-paho-cpp-objs-MinSizeRel-938040aa4c0b0be942af.json",
+					"name" : "paho-cpp-objs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "paho-mqtt3a-static::@f9c48be798071f0e7822",
+					"jsonFile" : "target-paho-mqtt3a-static-MinSizeRel-2b73e91e8e745bc3cbee.json",
+					"name" : "paho-mqtt3a-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "paho-mqtt3c-static::@f9c48be798071f0e7822",
+					"jsonFile" : "target-paho-mqtt3c-static-MinSizeRel-23a012f3339e24336efc.json",
+					"name" : "paho-mqtt3c-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "paho-mqttpp3-static::@62dc3ed2dfee72f4e974",
+					"jsonFile" : "target-paho-mqttpp3-static-MinSizeRel-16f4a14d50a06582896b.json",
+					"name" : "paho-mqttpp3-static",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/lv_examples/src/build",
+		"source" : "/root/lv_examples/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

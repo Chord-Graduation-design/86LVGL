@@ -1,0 +1,1 @@
+/usr/bin/riscv64-linux-gnu-gcc -Os -DNDEBUG  -rdynamic CMakeFiles/test2-static.dir/test2.c.o  -o test2-static  ../src/libpaho-mqtt3c.a -lc -ldl -lpthread -lrt 

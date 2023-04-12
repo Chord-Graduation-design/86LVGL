@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/CMakeFiles/paho-mqttpp3-static-populate"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/CMakeFiles/paho-mqttpp3-static-populate.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/CMakeFiles/paho-mqttpp3-static-populate-complete.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-install.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-download.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-update.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-patch.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-configure.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-build.rule"
+		},
+		{
+			"file" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-subbuild/paho-mqttpp3-static-populate-prefix/src/paho-mqttpp3-static-populate-stamp/paho-mqttpp3-static-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"paho-mqttpp3-static-populate"
+		],
+		"name" : "paho-mqttpp3-static-populate"
+	}
+}

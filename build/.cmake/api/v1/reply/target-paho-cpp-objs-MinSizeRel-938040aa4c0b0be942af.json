@@ -1,0 +1,312 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/async_client.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/client.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/connect_options.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/create_options.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/disconnect_options.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/iclient_persistence.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/message.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/properties.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/response_options.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/ssl_options.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/string_collection.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/subscribe_options.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/token.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/topic.cpp.o"
+		},
+		{
+			"path" : "_deps/paho-mqttpp3-static-build/src/CMakeFiles/paho-cpp-objs.dir/will_options.cpp.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"build/_deps/paho-mqttpp3-static-src/src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os -DNDEBUG -fPIC  "
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "LV_USE_DEMO_BENCHMARK"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LV_USE_DEMO_KEYPAD_AND_ENCODER"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LV_USE_DEMO_MUSIC"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LV_USE_DEMO_STRESS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LV_USE_DEMO_WIDGETS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-src/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-src/src/externals/paho-mqtt-c/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/root/lv_examples/src/build/_deps/paho-mqttpp3-static-src/src/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"id" : "paho-cpp-objs::@62dc3ed2dfee72f4e974",
+	"name" : "paho-cpp-objs",
+	"paths" : 
+	{
+		"build" : "_deps/paho-mqttpp3-static-build/src",
+		"source" : "build/_deps/paho-mqttpp3-static-src/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/async_client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/connect_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/create_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/disconnect_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/iclient_persistence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/properties.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/response_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/ssl_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/string_collection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/subscribe_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/token.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/topic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/paho-mqttpp3-static-src/src/will_options.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
